@@ -110,11 +110,11 @@ Part 2: Verify the default switch configuration.
  Create a local user
  Switch01(config)#username admin privilege 15 secret cisco
  Create a domain name
- Switch01(config)#ip domain-name eastcharmer.com
-EAST CHARMER youtube.com/eastcharmer | www.eastcharmer.com
+ Switch01(config)#ip domain-name       .com
+        youtube.com/       | www.      .com
  Generate RSA keys for SSH
  Switch01(config)#crypto key generate rsa
- The name for the keys will be: Switch01.eastcharmer.com
+ The name for the keys will be: Switch01.      .com
  Choose the size of the key modulus in the range of 360 to 2048 for your
  General Purpose Keys. Choosing a key modulus greater than 512 may take a few minutes.
  How many bits in the modulus [512]: 1024
